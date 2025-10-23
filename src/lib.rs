@@ -1,3 +1,14 @@
+//! Search for a word in a file
+//! 
+//! # Examples
+//! 
+//! ```
+//! let word = "hello";
+//! let answer = "hello";
+//! 
+//! assert_eq!(word, answer);
+//! ```
+///
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     let mut results = Vec::new();
 

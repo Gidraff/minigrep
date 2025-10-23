@@ -1,6 +1,8 @@
 [package]
-name = "minigrep"
+name = "minigrep_1"
 version = "0.1.0"
 edition = "2024"
+description = "A minimal version of grep"
+license = "MIT"
 
 [dependencies]
